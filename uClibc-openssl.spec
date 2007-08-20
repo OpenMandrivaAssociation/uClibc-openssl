@@ -45,7 +45,7 @@ Patch12:	openssl-0.9.7g-CVE-2006-3738.patch
 Patch13:	openssl-0.9.7g-CVE-2006-2937.patch
 Patch14:	openssl-0.9.7g-CVE-2006-2940-2.patch
 Requires:	%libname = %version-%release
-Requires:	/usr/bin/perl
+Requires:	perl-base
 BuildRequires:	uClibc uClibc-devel uClibc-static-devel
 BuildRoot:	%_tmppath/%name-%version-root
 
