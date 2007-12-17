@@ -47,7 +47,6 @@ Patch14:	openssl-0.9.7g-CVE-2006-2940-2.patch
 Requires:	%libname = %version-%release
 Requires:	perl-base
 BuildRequires:	uClibc uClibc-devel uClibc-static-devel
-BuildRoot:	%_tmppath/%name-%version-root
 
 %description
 The openssl certificate management tool and the shared libraries that provide
