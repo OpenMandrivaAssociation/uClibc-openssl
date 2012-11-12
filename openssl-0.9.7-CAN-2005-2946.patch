@@ -1,0 +1,19 @@
+--- openssl-0.9.7g/apps/openssl.cnf.can-2005-2946	2005-10-10 11:33:56.388637931 -0600
++++ openssl-0.9.7g/apps/openssl.cnf	2005-10-10 11:38:53.464003135 -0600
+@@ -67,7 +67,7 @@
+ 
+ default_days	= 365			# how long to certify for
+ default_crl_days= 30			# how long before next CRL
+-default_md	= md5			# which md to use.
++default_md 	= sha1			# which md to use
+ preserve	= no			# keep passed DN ordering
+ 
+ # A few difference way of specifying how similar the request should look
+@@ -100,6 +100,7 @@
+ [ req ]
+ default_bits		= 1024
+ default_keyfile 	= privkey.pem
++default_md 		= sha1
+ distinguished_name	= req_distinguished_name
+ attributes		= req_attributes
+ x509_extensions	= v3_ca	# The extentions to add to the self signed cert
