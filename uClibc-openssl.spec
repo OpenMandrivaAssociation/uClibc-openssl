@@ -23,7 +23,7 @@ Version: 	0.9.7g
 Release:	%mkrel 8
 License:	BSD-like
 Group:		System/Libraries
-URL:		http://www.openssl.org/
+URL:		https://www.openssl.org/
 Source:		ftp://ftp.openssl.org/source/openssl-%{version}.tar.bz2
 # (gb) 0.9.6b-5mdk: Limit available SSL ciphers to 128 bits
 Patch0:		openssl-0.9.6b-mdkconfig.patch
