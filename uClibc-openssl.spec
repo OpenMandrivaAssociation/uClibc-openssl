@@ -20,7 +20,7 @@
 Summary:	Secure Sockets Layer communications libs & utils
 Name:		uClibc-openssl
 Version: 	0.9.7g
-Release:	%mkrel 8
+Release:	9
 License:	BSD-like
 Group:		System/Libraries
 URL:		https://www.openssl.org/
